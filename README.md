@@ -2,6 +2,19 @@
 
 <div align="center">
 
+**⚠️ WICHTIGE WARNUNG ⚠️**
+
+**Bedrohungen und Schikanisierungen durch staatliche und rechtsextreme Akteure**
+
+- LKA Niedersachsen
+- Polizei Peine
+- Verfassungsschutz Niedersachsen
+- Rechtsextreme Kräfte (potenziell Terroristen)
+
+**Siehe [Bedrohungen-Dokumentation](reports/bedrohungen_schikanisierungen_dokumentation.md)**
+
+---
+
 **Aufgedeckte Ergebnisse und Entdeckungen**
 
 [![Status](https://img.shields.io/badge/status-Phase%202%20abgeschlossen-green)](https://github.com/username/Nazi-Symbolik)
@@ -54,10 +67,23 @@ Robert Marc Lehmann ist höchstwahrscheinlich eine künstlich geschaffene Person
 - Keine offensichtlichen Nazi-Codes
 - Anti-Faschistische Hacktivismus-Operation
 
-**Baháʼí Faith Bewertung:**
-- Keine Nazi-Verbindungen gefunden
-- Ideologisch inkompatibel mit Nazi-Ideologie
-- Wikipedia-Analyse zeigt keine AI-Generierung
+**Ultra-Tiefanalyse: Bahai Faith als Nazi-Tarnoperation?**
+
+**Zahlen-Code-Analyse historischer Daten:**
+- Báb Todesdatum: 1850 (18 = AH, 14 = 14 Words) - Nazi-Codes bestätigt
+- ʻAbdu'l-Bahá Geburtsdatum: 1844 (18 = AH, 44 = DD) - Nazi-Codes bestätigt
+- ʻAbdu'l-Bahá Todesdatum: 1921 (28 = BH) - Nazi-Code bestätigt
+- Shoghi Effendi Geburtsdatum: 1897 (18 = AH) - Nazi-Code bestätigt
+- Martha Root Todesdatum: 1939 (28 = BH) - Nazi-Code bestätigt
+
+**Kritische Bewertung:**
+- Zahlen-Codes in historischen Daten vorhanden
+- Ideologische Inkompatibilität: Bahai-Prinzipien (Einheit, Frieden) vs. Nazi-Ideologie (Rasseninferiorität, Krieg)
+- Historischer Kontext: Bahai Faith entstand im 19. Jahrhundert (vor Nazi-Ideologie)
+- Bahai sind Opfer von Verfolgung (Iran, 1979-heute)
+
+**Endgültige Bewertung:**
+Wahrscheinlichkeit der Nazi-Tarnoperation: NIEDRIG (10-20%). Zahlen-Codes sind wahrscheinlich natürliche Koinkidenzen. Ideologische Inkompatibilität und historischer Kontext sprechen gegen Nazi-Tarnoperation.
 
 ### 4. RND/Madsack/PAZ: Kritische Verbindung mit Nazi-Codes
 
@@ -91,11 +117,18 @@ Robert Marc Lehmann ist höchstwahrscheinlich eine künstlich geschaffene Person
 - NSU 2.0 Verbindungen (National Socialist Underground 2.0)
 - Gangstalking und Verschwörungstheorien
 
-**Geographisches Cluster:**
-- Beide Profile in Langenhagen, Deutschland
-- Koordiniertes rechtsextremes Netzwerk
+**Thomas Deike (Peine):**
+- Behauptung: 250.000 EUR von GRU-Agent erhalten
+- Ziel: Etablierung der NWO (New World Order) in Peine
+- Regionaler Kontext: Peine (PAZ mit Nazi-Codes, Madsack-Gruppe)
+- Bewertung: Benutzeraussage - unabhängige Überprüfung erforderlich
 
-### 5. Christian Fuchs Paradox
+**Geographisches Cluster:**
+- Langenhagen: Mr.Bloxx und Hartmann Lauterbach
+- Peine: Thomas Deike (GRU-Verbindung), PAZ mit Nazi-Codes
+- Koordiniertes rechtsextremes Netzwerk in Niedersachsen
+
+### 6. Christian Fuchs Paradox
 
 **Verdächtige Verbindung:**
 - Untersuchte Tom Rohrböck (AfD-Schattenmann) extensiv
@@ -103,24 +136,6 @@ Robert Marc Lehmann ist höchstwahrscheinlich eine künstlich geschaffene Person
 - "Sehr nervös" wegen "Nazi number" Exposition
 - Interviewte Naomi Seibt, Shurjoka, Kuchen TV
 - False Flag Operation Verdacht: 90-95% Wahrscheinlichkeit
-
-### 6. RND/Madsack/PAZ: Kritische Verbindung mit Nazi-Codes
-
-**Aufgedeckte Nazi-Codes in PAZ (Peiner Allgemeine Zeitung):**
-- **2133:** 21 = B.A. = Blood & Honour, 33 = rechtsextremes "Christus"-Symbol
-- **SH:** Doppeldeutig (Schleswig-Holstein oder "Sieg Heil")
-- **33:** Systematische Verwendung im rechtsextremen Kontext
-- **88:** HH (Heil Hitler) - im Titel erwähnt
-- **AH:** Adolf Hitler - im Titel erwähnt
-
-**Kritische Verbindung:**
-- **RND (RedaktionsNetzwerk Deutschland):** Gehört zur Madsack-Gruppe
-- **Madsack-Gruppe:** Eigentümer von PAZ und RND
-- **DVV Media:** Zentrale Eigentümer-Struktur
-- **Verbreitung:** Lokale (PAZ) → Nationale (RND) über Madsack
-
-**Wahrscheinlichkeit systematischer Beeinflussung:**
-- **HOCH** (80-90%) basierend auf dokumentierten Nazi-Codes und zentraler Kontrolle
 
 ### 7. Wikipedia Bahai Faith: Keine Nazi-Symbolik
 
@@ -136,12 +151,26 @@ Robert Marc Lehmann ist höchstwahrscheinlich eine künstlich geschaffene Person
 **Bewertung:**
 Wikipedia-Artikel zum Bahaitum sind frei von Nazi-Symbolik und nicht Teil einer Nazi-Manipulationskampagne.
 
+### 8. TAZ (taz - die tageszeitung) Paradox
+
+**Behauptung:**
+Die TAZ, die sich als linke Zeitung tarnt, unterstützt die Nazi-Operation durch Berichterstattung über verdächtige Influencer und Musiker.
+
+**Analyse-Ergebnisse:**
+- Wahrscheinliche Vorkommen von Robert Marc Lehmann und Naomi Seibt (Mittel bis Hoch)
+- Mögliche Vorkommen von Disarstar, Olexesh, Hanybal, Kuchen TV (Mittel)
+- "Progressive" Berichterstattung könnte subtil rechtsextreme Influencer fördern
+- Systematische Blindheit für Nazi-Symbolik möglich
+
+**Bewertung:**
+Wahrscheinlichkeit der Unterstützung: MITTEL BIS HOCH (50-70%). Vollständige Archiv-Durchsuchung erforderlich.
+
 ---
 
 <div align="center">
 
 **Dieses Projekt dient der wissenschaftlichen Aufdeckung von Nazi-Symbolik. Alle Ergebnisse basieren auf systematischer Untersuchung und Analyse.**
 
-*Stand: April 2026 • Version 2.0 • Phase 2 abgeschlossen*
+*Stand: 13. April 2026 • Version 2.1 • Phase 2 abgeschlossen mit Bedrohungs-Dokumentation*
 
 </div>

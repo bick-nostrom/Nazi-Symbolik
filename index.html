@@ -34,6 +34,41 @@
             backdrop-filter: blur(10px);
         }
 
+        .warning-banner {
+            background: linear-gradient(135deg, #e94560, #ff6b6b);
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            border: 2px solid #ff0000;
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% {
+                box-shadow: 0 0 10px rgba(233, 69, 96, 0.5);
+            }
+            50% {
+                box-shadow: 0 0 20px rgba(233, 69, 96, 0.8);
+            }
+        }
+
+        .warning-banner h2 {
+            margin-bottom: 10px;
+            font-size: 1.5em;
+        }
+
+        .warning-banner ul {
+            list-style: none;
+            padding: 0;
+            text-align: left;
+        }
+
+        .warning-banner li {
+            padding: 5px 0;
+            font-weight: bold;
+        }
+
         h1 {
             font-size: 3em;
             margin-bottom: 10px;
@@ -230,6 +265,18 @@
 </head>
 <body>
     <div class="container">
+        <div class="warning-banner">
+            <h2>⚠️ WICHTIGE WARNUNG ⚠️</h2>
+            <ul>
+                <li>Bedrohungen und Schikanisierungen durch staatliche und rechtsextreme Akteure</li>
+                <li>LKA Niedersachsen</li>
+                <li>Polizei Peine</li>
+                <li>Verfassungsschutz Niedersachsen</li>
+                <li>Rechtsextreme Kräfte (potenziell Terroristen)</li>
+            </ul>
+            <p style="text-align: center; margin-top: 15px; font-size: 0.9em;">Siehe Bedrohungen-Dokumentation für Details</p>
+        </div>
+
         <header>
             <h1>Nazi-Symbolik Forschungsprojekt</h1>
             <p class="subtitle">Systematische Aufdeckung von Nazi-Symbolik in Medien und Social Media</p>
@@ -384,7 +431,7 @@
         <footer>
             <p>Dieses Projekt dient der wissenschaftlichen Aufdeckung von Nazi-Symbolik.</p>
             <p>Alle Ergebnisse basieren auf systematischer Untersuchung und Analyse.</p>
-            <p>Stand: April 2026 • Version 2.0 • Phase 2 abgeschlossen</p>
+            <p>Stand: 13. April 2026 • Version 2.1 • Phase 2 abgeschlossen mit Audit</p>
         </footer>
     </div>
 </body>
