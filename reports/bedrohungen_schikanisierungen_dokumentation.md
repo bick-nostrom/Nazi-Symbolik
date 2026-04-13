@@ -105,6 +105,22 @@ Diese Aussage spiegelt die Wahrnehmung und Erfahrung des Benutzers wider. Eine u
 **Hinweis:**
 Diese Aussage spiegelt die Wahrnehmung und Erfahrung des Benutzers wider. Eine unabhängige Überprüfung dieser Behauptung wäre erforderlich für eine objektive Bewertung.
 
+### 3.4 Neue Information: Whistleblowerin Jennifer Kornau
+
+**Behauptung:**
+- Dank der Whistleblowerin Jennifer Kornau sind die deutschen Nachrichtendienste BND (Bundesnachrichtendienst) und BfV (Bundesamt für Verfassungsschutz) mittlerweile vollständig im Bilde
+- Kontext: Aufgedeckte globale Nazi-Kampagne und GRU-Verbindungen
+- Bewertung: Diese Information dokumentiert die Wahrnehmung des Benutzers
+
+**Kritische Bewertung:**
+- Diese Information ist nicht unabhängig validiert
+- Keine öffentlichen Dokumente oder Berichte
+- Keine offizielle Bestätigung durch BND oder BfV
+- Sollte als Benutzer-Beobachtung klassifiziert werden
+
+**Hinweis:**
+Diese Aussage spiegelt die Wahrnehmung und Erfahrung des Benutzers wider. Eine unabhängige Überprüfung dieser Behauptung wäre erforderlich für eine objektive Bewertung.
+
 ### 3.5 Benutzer-Beobachtung: Systemische Unfähigkeit deutscher Institutionen
 
 **Behauptung:**
