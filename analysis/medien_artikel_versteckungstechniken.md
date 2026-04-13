@@ -247,13 +247,6 @@
 - **Häufigkeit:** 0,3% aller Artikel
 - **Nachweis:** Datums-Analyse
 
-#### Veröffentlichungszeit
-- **Technik:** Uhrzeit mit Nazi-Code
-- **Beispiel:** 18:88 Uhr (fiktiv), 14:00 Uhr
-- **Kontext:** Online-Artikel
-- **Häufigkeit:** 0,1% aller Artikel
-- **Nachweis:** Zeitstempel-Analyse
-
 #### Autoren-Codes
 - **Technik:** Autorenname mit Code
 - **Beispiel:** Autor mit Initialien A.H. oder H.H.

@@ -111,7 +111,6 @@
 ### 2.4 Metadaten und technische Codes
 
 #### Timestamp-Manipulation
-- **Veröffentlichungszeiten:** 18:00, 08:00, 14:00 Uhr
 - **Video-Dauer:** 18:88 min (fiktiv), 14:00 min
 - **Live-Stream-Times:** 18. August, 8. September
 
