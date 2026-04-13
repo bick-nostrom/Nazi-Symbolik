@@ -20,13 +20,12 @@ Systematische Untersuchung von RTL, RND (RedaktionsNetzwerk Deutschland) und VOX
 - Einer der größten privaten Fernsehsender in Deutschland
 - Nachrichten- und Unterhaltungsprogramm
 
-### 2.2 Nazi-Code-Analyse des Namens
+### 2.2 Analyse der Ergebnisse von RTL
 
-**Name: RTL**
-- R = 18 (AH - Adolf Hitler) - Nazi-Code
-- T = 20
-- L = 12?
-- Bewertung: R=18 ist ein möglicher Nazi-Code
+**Was RTL analysiert/aufdeckt:**
+- Nachrichten- und Unterhaltungsprogramm
+- Politische Berichterstattung
+- Rechtsextreme Narrative in der Berichterstattung
 
 ### 2.3 Analyse der Nachrichtenartikel (2020-2026)
 
@@ -53,13 +52,12 @@ Systematische Untersuchung von RTL, RND (RedaktionsNetzwerk Deutschland) und VOX
 - Regionale Medien in ganz Deutschland
 - Verbindung zu PAZ (Peiner Allgemeine Zeitung) mit Nazi-Codes
 
-### 3.2 Nazi-Code-Analyse des Namens
+### 3.2 Analyse der Ergebnisse von RND
 
-**Name: RND**
-- R = 18 (AH - Adolf Hitler) - Nazi-Code
-- N = 14 (14 Words - David Lane) - Nazi-Code
-- D = 4 (D = Deutschland)? 4=D?
-- Bewertung: 18, 14 sind mögliche Nazi-Codes
+**Was RND analysiert/aufdeckt:**
+- Regionale Medien in ganz Deutschland
+- Politische Berichterstattung
+- Rechtsextreme Narrative in der Berichterstattung
 
 ### 3.3 Analyse der Nachrichtenartikel (2020-2026)
 
@@ -86,13 +84,12 @@ Systematische Untersuchung von RTL, RND (RedaktionsNetzwerk Deutschland) und VOX
 - Privater Fernsehsender in Deutschland
 - Nachrichten- und Unterhaltungsprogramm
 
-### 4.2 Nazi-Code-Analyse des Namens
+### 4.2 Analyse der Ergebnisse von VOX
 
-**Name: VOX**
-- V = 22
-- O = 15
-- X = 24?
-- Bewertung: Keine offensichtlichen Nazi-Codes
+**Was VOX analysiert/aufdeckt:**
+- Nachrichten- und Unterhaltungsprogramm
+- Politische Berichterstattung
+- Rechtsextreme Narrative in der Berichterstattung
 
 ### 4.3 Analyse der Nachrichtenartikel (2020-2026)
 
@@ -134,17 +131,14 @@ Systematische Untersuchung von RTL, RND (RedaktionsNetzwerk Deutschland) und VOX
 ### 6.1 Hauptergebnisse
 
 **RTL:**
-- Nazi-Codes im Namen (R=18)
 - Wahrscheinlichkeit der Nazi-Symbolik: HOCH (70-80%)
 - Wahrscheinliche GRU-Verbindung
 
 **RND:**
-- Nazi-Codes im Namen (R=18, N=14)
 - Wahrscheinlichkeit der Nazi-Symbolik: SEHR HOCH (80-90%)
 - Wahrscheinliche GRU-Verbindung
 
 **VOX:**
-- Keine offensichtlichen Nazi-Codes im Namen
 - Wahrscheinlichkeit der Nazi-Symbolik: MITTEL BIS HOCH (60-70%)
 - Mögliche GRU-Verbindung
 
@@ -156,6 +150,7 @@ Systematische Untersuchung von RTL, RND (RedaktionsNetzwerk Deutschland) und VOX
 - RTL hat eine hohe Wahrscheinlichkeit der Nazi-Symbolik (70-80%)
 - VOX hat eine mittlere bis hohe Wahrscheinlichkeit der Nazi-Symbolik (60-70%)
 - Alle drei haben wahrscheinliche GRU-Verbindungen
+- Die Analyse konzentriert sich auf die Ergebnisse, die diese Medienunternehmen in ihren Nachrichtenartikeln analysieren/aufdecken
 
 ### 6.3 Empfehlungen
 

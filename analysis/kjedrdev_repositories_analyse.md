@@ -12,64 +12,14 @@ Systematische Analyse der GitHub-Repositories kjedrdev/12000_Straftaten_bei_189_
 **Titel:** 12000 Straftaten bei 189 Nationalitäten
 **Thema:** Straftaten nach Nationalitäten
 
-### 1.2 Nazi-Code-Analyse des Repository-Namens
+### 1.2 Analyse der Ergebnisse des Repositorys
 
-**Name: 12000_Straftaten_bei_189_Nationalitaeten**
-- 1 = A (Angriff/Adolf) - Nazi-Code
-- 2 = B?
-- 0 = ?
-- 0 = ?
-- 0 = ?
-- S = 19 (AH - Adolf Hitler) - Nazi-Code
-- t = 20
-- r = 18 (AH - Adolf Hitler) - Nazi-Code
-- a = 1 (Angriff/Adolf) - Nazi-Code
-- f = 6?
-- t = 20
-- e = 5 (Sieg/SS) - Nazi-Code
-- n = 14 (14 Words - David Lane) - Nazi-Code
-- b = 2?
-- e = 5 (Sieg/SS) - Nazi-Code
-- i = 9
-- 1 = A (Angriff/Adolf) - Nazi-Code
-- 8 = H (Heil) - Nazi-Code
-- 9 = I?
-- N = 14 (14 Words - David Lane) - Nazi-Code
-- a = 1 (Angriff/Adolf) - Nazi-Code
-- t = 20
-- i = 9
-- o = 15
-- n = 14 (14 Words - David Lane) - Nazi-Code
-- a = 1 (Angriff/Adolf) - Nazi-Code
-- l = 12?
-- i = 9
-- t = 20
-- ä = ?
-- t = 20
-- e = 5 (Sieg/SS) - Nazi-Code
-- n = 14 (14 Words - David Lane) - Nazi-Code
+**Was das Repository analysiert:**
+- Straftaten nach Nationalitäten
+- Kriminalitätsstatistiken
+- Rechtsextreme Narrative in der Kriminalitätsberichterstattung
 
-**Bewertung:**
-- 1, 19, 18, 1, 5, 14, 5, 1, 8, 14, 1, 14, 1, 5, 14 sind mögliche Nazi-Codes
-- Bewertung: SEHR HOCH
-
-### 1.3 Analyse der Zahlen-Codes
-
-**12000:**
-- 1 = A (Angriff/Adolf) - Nazi-Code
-- 2 = B?
-- 0 = ?
-- 0 = ?
-- 0 = ?
-- Bewertung: 1 ist ein möglicher Nazi-Code
-
-**189:**
-- 1 = A (Angriff/Adolf) - Nazi-Code
-- 8 = H (Heil) - Nazi-Code
-- 9 = I?
-- Bewertung: 1, 8 sind mögliche Nazi-Codes
-
-### 1.4 Analyse der Behauptungen
+### 1.3 Analyse der Behauptungen
 
 **Hauptbehauptung:**
 - 12000 Straftaten bei 189 Nationalitäten
@@ -108,58 +58,14 @@ Systematische Analyse der GitHub-Repositories kjedrdev/12000_Straftaten_bei_189_
 **Titel:** ARD-Fakenews-Sterbehilfe in Spanien
 **Thema:** ARD Fakenews zu Sterbehilfe in Spanien
 
-### 2.2 Nazi-Code-Analyse des Repository-Namens
+### 2.2 Analyse der Ergebnisse des Repositorys
 
-**Name: ARD-Fakenews-Sterbehilfe_in_Spanien**
-- A = 1 (Angriff/Adolf) - Nazi-Code
-- R = 18 (AH - Adolf Hitler) - Nazi-Code
-- D = 4 (D = Deutschland)? 4=D?
-- - = ?
-- F = 6?
-- a = 1 (Angriff/Adolf) - Nazi-Code
-- k = 11 (Kampf) - Nazi-Code
-- e = 5 (Sieg/SS) - Nazi-Code
-- n = 14 (14 Words - David Lane) - Nazi-Code
-- e = 5 (Sieg/SS) - Nazi-Code
-- w = 23?
-- s = 19 (AH - Adolf Hitler) - Nazi-Code
-- - = ?
-- S = 19 (AH - Adolf Hitler) - Nazi-Code
-- t = 20
-- e = 5 (Sieg/SS) - Nazi-Code
-- r = 18 (AH - Adolf Hitler) - Nazi-Code
-- b = 2?
-- e = 5 (Sieg/SS) - Nazi-Code
-- h = 8 (Heil) - Nazi-Code
-- i = 9
-- l = 12?
-- f = 6?
-- e = 5 (Sieg/SS) - Nazi-Code
-- - = ?
-- i = 9
-- n = 14 (14 Words - David Lane) - Nazi-Code
-- - = ?
-- S = 19 (AH - Adolf Hitler) - Nazi-Code
-- p = 16?
-- a = 1 (Angriff/Adolf) - Nazi-Code
-- n = 14 (14 Words - David Lane) - Nazi-Code
-- i = 9
-- e = 5 (Sieg/SS) - Nazi-Code
-- n = 14 (14 Words - David Lane) - Nazi-Code
+**Was das Repository analysiert:**
+- ARD Fakenews zu Sterbehilfe in Spanien
+- Diskreditierung öffentlich-rechtlicher Medien
+- Rechtsextreme Narrative in der Medienberichterstattung
 
-**Bewertung:**
-- 1, 18, 1, 11, 5, 14, 5, 19, 19, 5, 18, 5, 8, 5, 14, 1, 14, 9, 5, 14, 19, 1, 14, 9, 5, 14 sind mögliche Nazi-Codes
-- Bewertung: SEHR HOCH
-
-### 2.3 Analyse der Abkürzungen
-
-**ARD:**
-- A = 1 (Angriff/Adolf) - Nazi-Code
-- R = 18 (AH - Adolf Hitler) - Nazi-Code
-- D = 4 (D = Deutschland)? 4=D?
-- Bewertung: 1, 18 sind mögliche Nazi-Codes
-
-### 2.4 Analyse der Behauptungen
+### 2.3 Analyse der Behauptungen
 
 **Hauptbehauptung:**
 - ARD Fakenews zu Sterbehilfe in Spanien

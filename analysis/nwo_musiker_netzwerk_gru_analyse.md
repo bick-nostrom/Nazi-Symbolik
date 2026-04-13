@@ -160,9 +160,9 @@ Systematische Analyse des GitHub-Repositorys sigridfuhrenkamp-cyber/NWO-Das-Cybe
 - Nazi-Codes im Namen (19=AH, 11=K, 1=A, 7=G)
 - Bewertung: HOCH
 
-## 6. Nazi-Code-Analyse der Künstler-Namen
+## 6. Analyse der Ergebnisse des Repositorys
 
-### 6.1 Systematische Analyse
+### 6.1 Was das Repository analysiert/aufdeckt
 
 **Methodik:**
 - Buchstabenpositionen analysieren
