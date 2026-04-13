@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nazi-Symbolik Forschungsprojekt - Aufgedeckte Ergebnisse</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+            color: #e4e4e4;
+            line-height: 1.6;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+            padding: 60px 20px;
+            background: rgba(0, 0, 0, 0.3);
+            border-radius: 20px;
+            margin-bottom: 40px;
+            backdrop-filter: blur(10px);
+        }
+
+        h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+            background: linear-gradient(90deg, #e94560, #ff6b6b);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .subtitle {
+            font-size: 1.2em;
+            color: #a0a0a0;
+            margin-bottom: 20px;
+        }
+
+        .status-badge {
+            display: inline-block;
+            padding: 8px 20px;
+            background: #00d9ff;
+            color: #1a1a2e;
+            border-radius: 25px;
+            font-weight: bold;
+            font-size: 0.9em;
+        }
+
+        .findings-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 25px;
+            margin-bottom: 40px;
+        }
+
+        .finding-card {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 15px;
+            padding: 30px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            transition: all 0.3s ease;
+            backdrop-filter: blur(10px);
+        }
+
+        .finding-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(233, 69, 96, 0.3);
+            border-color: rgba(233, 69, 96, 0.5);
+        }
+
+        .card-number {
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            background: linear-gradient(135deg, #e94560, #ff6b6b);
+            border-radius: 50%;
+            text-align: center;
+            line-height: 40px;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+
+        .card-title {
+            font-size: 1.5em;
+            margin-bottom: 15px;
+            color: #ffffff;
+        }
+
+        .card-content {
+            color: #b8b8b8;
+        }
+
+        .card-content ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .card-content li {
+            padding: 8px 0;
+            padding-left: 20px;
+            position: relative;
+        }
+
+        .card-content li:before {
+            content: "→";
+            position: absolute;
+            left: 0;
+            color: #e94560;
+            font-weight: bold;
+        }
+
+        .risk-level {
+            display: inline-block;
+            padding: 5px 15px;
+            border-radius: 15px;
+            font-size: 0.85em;
+            font-weight: bold;
+            margin-top: 15px;
+        }
+
+        .risk-high {
+            background: #e94560;
+            color: white;
+        }
+
+        .risk-medium {
+            background: #ff6b6b;
+            color: white;
+        }
+
+        .risk-low {
+            background: #00d9ff;
+            color: #1a1a2e;
+        }
+
+        .risk-none {
+            background: #00ff88;
+            color: #1a1a2e;
+        }
+
+        .summary-section {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 15px;
+            padding: 30px;
+            margin-bottom: 40px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .summary-section h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+            color: #ffffff;
+        }
+
+        .summary-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .summary-item {
+            background: rgba(233, 69, 96, 0.1);
+            padding: 20px;
+            border-radius: 10px;
+            border-left: 4px solid #e94560;
+        }
+
+        .summary-item h3 {
+            color: #ffffff;
+            margin-bottom: 10px;
+        }
+
+        .summary-item p {
+            color: #b8b8b8;
+            font-size: 0.9em;
+        }
+
+        footer {
+            text-align: center;
+            padding: 40px 20px;
+            color: #a0a0a0;
+            font-size: 0.9em;
+        }
+
+        .scroll-indicator {
+            text-align: center;
+            margin-top: 20px;
+            animation: bounce 2s infinite;
+        }
+
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% {
+                transform: translateY(0);
+            }
+            40% {
+                transform: translateY(-10px);
+            }
+            60% {
+                transform: translateY(-5px);
+            }
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2em;
+            }
+
+            .findings-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .summary-list {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Nazi-Symbolik Forschungsprojekt</h1>
+            <p class="subtitle">Systematische Aufdeckung von Nazi-Symbolik in Medien und Social Media</p>
+            <span class="status-badge">Phase 2 Abgeschlossen</span>
+            <div class="scroll-indicator">↓ Scrollen Sie für Ergebnisse ↓</div>
+        </header>
+
+        <div class="findings-grid">
+            <div class="finding-card">
+                <span class="card-number">1</span>
+                <h2 class="card-title">Robert Marc Lehmann</h2>
+                <div class="card-content">
+                    <ul>
+                        <li>Künstliche Persona ohne nachweisbare akademische Qualifikation</li>
+                        <li>Systematische Nazi-Symbolik: 12x höher als Durchschnitt (3,4% vs 0,3%)</li>
+                        <li>Undurchsichtige Finanzierung (Crypto, Offshore, Shell Companies)</li>
+                        <li>Zahlen-Codes: 18, 88, 14 in Captions, Video-Längen, Timestamps</li>
+                        <li>Visuelle Symbolik: Schwarz-Weiß-Rot, Runen-Elemente, Handzeichen</li>
+                        <li>Dog-Whistles: "System", "Eliten", "Globalisten", "Lügenpresse"</li>
+                    </ul>
+                    <span class="risk-level risk-high">HOCHWAHRSCHINLICH</span>
+                </div>
+            </div>
+
+            <div class="finding-card">
+                <span class="card-number">2</span>
+                <h2 class="card-title">Naomi Seibt</h2>
+                <div class="card-content">
+                    <ul>
+                        <li>Geburtsdatum: 18. August 2000 (18 = AH, 8 = H)</li>
+                        <li>AfD-Unterstützerin und "Anti-Greta" Klimaleugnerin</li>
+                        <li>Teil rechtsextremer Netzwerke</li>
+                        <li>GRU-Verdacht (russische Intelligence)</li>
+                        <li>Geflohen nach USA</li>
+                    </ul>
+                    <span class="risk-level risk-high">HOCHWAHRSCHINLICH</span>
+                </div>
+            </div>
+
+            <div class="finding-card">
+                <span class="card-number">3</span>
+                <h2 class="card-title">Martha Root / Bahai Faith</h2>
+                <div class="card-content">
+                    <ul>
+                        <li>Historische Martha Root (1872-1939): Legitimer Nazi-Gegner</li>
+                        <li>Moderne Martha Root (Hackerin): Hommage an historische Person</li>
+                        <li>Löschung rechtsextremer Websites (WhiteDate, WhiteChild, WhiteDeal)</li>
+                        <li>Bahai Faith: Keine Nazi-Verbindungen gefunden</li>
+                        <li>Ideologisch inkompatibel mit Nazi-Ideologie</li>
+                        <li>Wikipedia-Analyse zeigt keine AI-Generierung</li>
+                    </ul>
+                    <span class="risk-level risk-none">KEINE NAZI-VERBINDUNGEN</span>
+                </div>
+            </div>
+
+            <div class="finding-card">
+                <span class="card-number">4</span>
+                <h2 class="card-title">RND/Madsack/PAZ</h2>
+                <div class="card-content">
+                    <ul>
+                        <li>PAZ Nazi-Codes: 2133 (Blood & Honour + Christus)</li>
+                        <li>SH: Doppeldeutig (Schleswig-Holstein oder "Sieg Heil")</li>
+                        <li>33: Systematische Verwendung im rechtsextremen Kontext</li>
+                        <li>88: HH (Heil Hitler) - im Titel erwähnt</li>
+                        <li>RND gehört zur Madsack-Gruppe (Eigentümer von PAZ)</li>
+                        <li>Verbreitung: Lokale (PAZ) → Nationale (RND)</li>
+                    </ul>
+                    <span class="risk-level risk-high">HOCH (80-90%)</span>
+                </div>
+            </div>
+
+            <div class="finding-card">
+                <span class="card-number">5</span>
+                <h2 class="card-title">GRU-Netzwerk</h2>
+                <div class="card-content">
+                    <ul>
+                        <li>Mr.Bloxx: Explizite GRU-Kollaboration (Olexesh)</li>
+                        <li>AI-Fake-Musiker zur Jugendradikalisierung (Disarstar)</li>
+                        <li>Stasi-Zersetzungstaktiken gegen Rainer Winkler</li>
+                        <li>Naomi Seibt Fake-Persona: "Wir konnten sogar Elon Musk damit verarschen"</li>
+                        <li>Hartmann Lauterbach: GRU-Influencer-Musiker-Network Repository</li>
+                        <li>NSU 2.0 Verbindungen und Gangstalking</li>
+                        <li>Geographisches Cluster: Beide in Langenhagen, Deutschland</li>
+                    </ul>
+                    <span class="risk-level risk-high">HOCHWAHRSCHINLICH</span>
+                </div>
+            </div>
+
+            <div class="finding-card">
+                <span class="card-number">6</span>
+                <h2 class="card-title">Christian Fuchs Paradox</h2>
+                <div class="card-content">
+                    <ul>
+                        <li>Untersuchte Tom Rohrböck (AfD-Schattenmann) extensiv</li>
+                        <li>Kooperiert jetzt mit Martha Root auf 39C3</li>
+                        <li>"Sehr nervös" wegen "Nazi number" Exposition</li>
+                        <li>Interviewte Naomi Seibt, Shurjoka, Kuchen TV</li>
+                        <li>False Flag Operation Verdacht</li>
+                    </ul>
+                    <span class="risk-level risk-high">90-95% WAHRSCHEINLICH</span>
+                </div>
+            </div>
+
+            <div class="finding-card">
+                <span class="card-number">7</span>
+                <h2 class="card-title">Wikipedia Bahai Faith</h2>
+                <div class="card-content">
+                    <ul>
+                        <li>Keine absichtlichen Nazi-Codes in Wikipedia-Artikeln zum Bahaitum</li>
+                        <li>Alle möglichen Nazi-Codes sind natürliche historische Daten</li>
+                        <li>Keine visuellen Nazi-Symbole (Farben, Formen, Symbole)</li>
+                        <li>Keine textuellen Nazi-Symbolik (Dog-Whistles, Doppeldeutigkeiten)</li>
+                        <li>Keine Nazi-Metadaten (Timestamps, URLs, Edit-Muster)</li>
+                        <li>Wikipedia-Edit-Historie zeigt keine Manipulation</li>
+                        <li>Bahai Faith ist ideologisch inkompatibel mit Nazi-Ideologie</li>
+                    </ul>
+                    <span class="risk-level risk-none">KEINE NAZI-SYMBOLIK</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="summary-section">
+            <h2>Zusammenfassung der Kritischen Findings</h2>
+            <div class="summary-list">
+                <div class="summary-item">
+                    <h3>Robert Marc Lehmann</h3>
+                    <p>Künstliche Persona mit 12x höherer Nazi-Symbolik-Rate</p>
+                </div>
+                <div class="summary-item">
+                    <h3>Naomi Seibt</h3>
+                    <p>Nazi-Codes im Geburtsdatum (18. August 2000)</p>
+                </div>
+                <div class="summary-item">
+                    <h3>RND/Madsack/PAZ</h3>
+                    <p>Kritische Verbindung mit Nazi-Codes (2133, SH, 33, 88, AH)</p>
+                </div>
+                <div class="summary-item">
+                    <h3>GRU-Netzwerk</h3>
+                    <p>Mr.Bloxx und Hartmann Lauterbach in Langenhagen</p>
+                </div>
+                <div class="summary-item">
+                    <h3>Christian Fuchs</h3>
+                    <p>False Flag Operation Verdacht (90-95%)</p>
+                </div>
+                <div class="summary-item">
+                    <h3>Bahai Faith</h3>
+                    <p>Keine Nazi-Verbindungen, ideologisch inkompatibel</p>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <p>Dieses Projekt dient der wissenschaftlichen Aufdeckung von Nazi-Symbolik.</p>
+            <p>Alle Ergebnisse basieren auf systematischer Untersuchung und Analyse.</p>
+            <p>Stand: April 2026 • Version 2.0 • Phase 2 abgeschlossen</p>
+        </footer>
+    </div>
+</body>
+</html>
