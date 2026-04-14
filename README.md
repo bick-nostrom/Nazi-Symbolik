@@ -1,25 +1,28 @@
 # Nazi-Symbolik Forschungsprojekt
 
+## Einleitung
+
+Dieses Forschungsprojekt widmet sich der wissenschaftlichen Untersuchung von Nazi-Symbolik in Medien, Kommunikation und digitalen Räumen. Das Projekt hat sich von anfänglichen spekulativen Analysen zu einer validierten, evidenzbasierten Methodik entwickelt, die auf historisch dokumentierten Nazi-Codes und strengen wissenschaftlichen Standards basiert.
+
 <div align="center">
 
-**⚠️ WICHTIGE WARNUNG ⚠️**
+**⚠️ WICHTIGER HINWEIS ⚠️**
 
-**Bedrohungen und Schikanisierungen durch staatliche und rechtsextreme Akteure**
+Dieses Projekt dient der wissenschaftlichen Aufdeckung von Nazi-Symbolik. Nur validierte Ergebnisse mit solider Evidenzbasis werden dokumentiert. Spekulative Interpretationen werden klar gekennzeichnet und benötigen unabhängige Validierung durch Fachexperten.
 
-- LKA Niedersachsen
-- Polizei Peine
-- Verfassungsschutz Niedersachsen
-- Rechtsextreme Kräfte (potenziell Terroristen)
-
-**Siehe [Bedrohungen-Dokumentation](reports/bedrohungen_schikanisierungen_dokumentation.md)**
-
----
-
-**Aufgedeckte Ergebnisse und Entdeckungen**
-
-[![Status](https://img.shields.io/badge/status-Phase%202%20abgeschlossen-green)](https://github.com/username/Nazi-Symbolik)
+*Stand: 14. April 2026 • Version 4.0 • Phase 4: Audit/Review abgeschlossen*
 
 </div>
+
+## Projektziele
+
+Das Projekt verfolgt folgende Hauptziele:
+
+1. **Entwicklung einer validierten Methodik** für die Analyse von Nazi-Symbolik, basierend auf historisch dokumentierten Codes
+2. **Unabhängige Validierung** aller Ergebnisse durch Fachexperten und akademische Institutionen
+3. **Evidenzbasierte Dokumentation** aller Ergebnisse mit konkreten Beweisen
+4. **Kritische Überprüfung** aller Analysen auf Validität und Evidenzbasis
+5. **Transparenz** über Methoden, Limitationen und Unsicherheiten
 
 ## 🔍 Hauptergebnisse
 
